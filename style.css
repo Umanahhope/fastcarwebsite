@@ -123,6 +123,20 @@ nav{
 }
 
 /* this is services */
+ #serv h2{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f5f3f5;
+  
+} 
+#serv {
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-left: 70%;
+}
+/*  */
 .services{
   min-height: 80vh;
   background: url("./image folder/service backgound.jpg") center/cover fixed no-repeat;
@@ -135,7 +149,7 @@ nav{
   margin: 40px;
   
 
-}
+} 
 .service-icon{
   align-self: center;
   font-size: 60px;
@@ -144,9 +158,13 @@ nav{
   border: 3px solid #f5f3f5;
   padding: 20px;
 }
+.service-text h3{
+  text-transform: uppercase;
+}
 .service-text p{
   line-height: 2;
   margin-top: 5px;
+  display: inline;
 }
 @media screen and (min-width:576px) {
   .service-center{
@@ -159,7 +177,7 @@ nav{
     width:50%;
   }
   .service-text p{
-    width:90%
+    width:20%
   }
 }
 
